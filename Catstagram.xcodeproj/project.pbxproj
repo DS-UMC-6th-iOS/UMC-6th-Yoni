@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		2C6E72202BE3913B001B93CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E721F2BE3913B001B93CD /* AppDelegate.swift */; };
 		2C6E72222BE3913B001B93CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E72212BE3913B001B93CD /* SceneDelegate.swift */; };
-		2C6E72242BE3913B001B93CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E72232BE3913B001B93CD /* ViewController.swift */; };
 		2C6E72272BE3913B001B93CD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2C6E72262BE3913B001B93CD /* Base */; };
 		2C6E72292BE3913C001B93CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6E72282BE3913C001B93CD /* Assets.xcassets */; };
 		2C6E722C2BE3913C001B93CD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2C6E722B2BE3913C001B93CD /* Base */; };
+		2C6E72342BE3BD89001B93CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E72332BE3BD89001B93CD /* LoginViewController.swift */; };
+		2C6E72362BE3C412001B93CD /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E72352BE3C412001B93CD /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C6E721C2BE3913B001B93CD /* Catstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6E721F2BE3913B001B93CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C6E72212BE3913B001B93CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C6E72232BE3913B001B93CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C6E72262BE3913B001B93CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C6E72282BE3913C001B93CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C6E722B2BE3913C001B93CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C6E722D2BE3913C001B93CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6E72332BE3BD89001B93CD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2C6E72352BE3C412001B93CD /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				2C6E721F2BE3913B001B93CD /* AppDelegate.swift */,
 				2C6E72212BE3913B001B93CD /* SceneDelegate.swift */,
-				2C6E72232BE3913B001B93CD /* ViewController.swift */,
 				2C6E72252BE3913B001B93CD /* Main.storyboard */,
+				2C6E72332BE3BD89001B93CD /* LoginViewController.swift */,
+				2C6E72352BE3C412001B93CD /* RegisterViewController.swift */,
 				2C6E72282BE3913C001B93CD /* Assets.xcassets */,
 				2C6E722A2BE3913C001B93CD /* LaunchScreen.storyboard */,
 				2C6E722D2BE3913C001B93CD /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C6E72242BE3913B001B93CD /* ViewController.swift in Sources */,
+				2C6E72342BE3BD89001B93CD /* LoginViewController.swift in Sources */,
 				2C6E72202BE3913B001B93CD /* AppDelegate.swift in Sources */,
 				2C6E72222BE3913B001B93CD /* SceneDelegate.swift in Sources */,
+				2C6E72362BE3C412001B93CD /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
