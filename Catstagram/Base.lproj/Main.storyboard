@@ -286,6 +286,12 @@
                             <constraint firstItem="amC-Mu-dsd" firstAttribute="trailing" secondItem="hqq-cl-r9U" secondAttribute="trailing" constant="10" id="wcf-Nv-zOr"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="7Ai-gy-qUV" id="e6K-c1-EeK"/>
+                        <outlet property="nameTextField" destination="XXA-RN-lgu" id="pJj-xx-zTe"/>
+                        <outlet property="nicknameTextField" destination="YNI-Ve-Mk8" id="mRz-ut-veH"/>
+                        <outlet property="passwordTextField" destination="Y7n-eE-UF1" id="aev-nq-s2H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cfJ-uE-Kjl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
