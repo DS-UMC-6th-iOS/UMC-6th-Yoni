@@ -26,6 +26,9 @@
                                 <rect key="frame" x="159" y="458.66666666666669" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="buttonGoNextVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XkP-Fs-lnm"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -37,15 +40,18 @@
                             <constraint firstItem="sFk-Jp-cZJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rde-zV-m6Z"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="eps-L0-sXS" id="GJr-hI-LJc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131" y="-27"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="EdS-OL-1Kd">
             <objects>
-                <viewController id="29m-jv-T5C" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondViewController" id="29m-jv-T5C" customClass="SecondViewController" customModule="Protocol" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n1a-iM-mSR">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,6 +60,9 @@
                                 <rect key="frame" x="159" y="458.66666666666669" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="buttonDismiss:" destination="29m-jv-T5C" eventType="touchUpInside" id="R8z-S8-sD2"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w3V-LC-j41">
                                 <rect key="frame" x="59" y="359" width="275" height="34"/>
@@ -71,10 +80,13 @@
                             <constraint firstItem="XOI-mS-cBz" firstAttribute="centerX" secondItem="n1a-iM-mSR" secondAttribute="centerX" id="QRS-Wj-rqR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="w3V-LC-j41" id="hoQ-2C-O3c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aZ6-KK-u14" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="866" y="-10"/>
+            <point key="canvasLocation" x="857" y="-27"/>
         </scene>
     </scenes>
     <resources>
