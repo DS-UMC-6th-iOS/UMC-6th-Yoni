@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C45670E2BE495C500F63F7D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C45670D2BE495C500F63F7D /* HomeViewController.swift */; };
+		2C4567122BE49BDD00F63F7D /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4567102BE49BDD00F63F7D /* FeedTableViewCell.swift */; };
+		2C4567132BE49BDD00F63F7D /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4567112BE49BDD00F63F7D /* FeedTableViewCell.xib */; };
 		2C6E72202BE3913B001B93CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E721F2BE3913B001B93CD /* AppDelegate.swift */; };
 		2C6E72222BE3913B001B93CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E72212BE3913B001B93CD /* SceneDelegate.swift */; };
 		2C6E72272BE3913B001B93CD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2C6E72262BE3913B001B93CD /* Base */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C45670D2BE495C500F63F7D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2C4567102BE49BDD00F63F7D /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		2C4567112BE49BDD00F63F7D /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
 		2C6E721C2BE3913B001B93CD /* Catstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6E721F2BE3913B001B93CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C6E72212BE3913B001B93CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C45670A2BE4956E00F63F7D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2C45670F2BE49B9700F63F7D /* Cell */,
+				2C45670D2BE495C500F63F7D /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2C45670F2BE49B9700F63F7D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2C4567102BE49BDD00F63F7D /* FeedTableViewCell.swift */,
+				2C4567112BE49BDD00F63F7D /* FeedTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		2C6E72132BE3913B001B93CD = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +82,7 @@
 		2C6E721E2BE3913B001B93CD /* Catstagram */ = {
 			isa = PBXGroup;
 			children = (
+				2C45670A2BE4956E00F63F7D /* Home */,
 				2C6E721F2BE3913B001B93CD /* AppDelegate.swift */,
 				2C6E72212BE3913B001B93CD /* SceneDelegate.swift */,
 				2C6E72252BE3913B001B93CD /* Main.storyboard */,
@@ -129,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C6E72292BE3913C001B93CD /* Assets.xcassets in Resources */,
+				2C4567132BE49BDD00F63F7D /* FeedTableViewCell.xib in Resources */,
 				2C6E722C2BE3913C001B93CD /* Base in Resources */,
 				2C6E72272BE3913B001B93CD /* Base in Resources */,
 			);
@@ -141,6 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C45670E2BE495C500F63F7D /* HomeViewController.swift in Sources */,
+				2C4567122BE49BDD00F63F7D /* FeedTableViewCell.swift in Sources */,
 				2C6E72342BE3BD89001B93CD /* LoginViewController.swift in Sources */,
 				2C6E72202BE3913B001B93CD /* AppDelegate.swift in Sources */,
 				2C6E72222BE3913B001B93CD /* SceneDelegate.swift in Sources */,

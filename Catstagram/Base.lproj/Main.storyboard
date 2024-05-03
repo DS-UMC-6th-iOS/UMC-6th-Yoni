@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Uyb-xt-7Ft">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zbe-F3-e3k">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
@@ -157,7 +157,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_catstagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="aA8-Rj-Co4">
-                                <rect key="frame" x="-41.666666666666657" y="59" width="476.33333333333326" height="96"/>
+                                <rect key="frame" x="79.666666666666686" y="59" width="234" height="96"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="친구들의 사진과 동영상을 보려면 가입하세요" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPp-vr-yNd">
                                 <rect key="frame" x="112.33333333333333" y="175" width="168.33333333333337" height="31.333333333333343"/>
@@ -236,14 +236,14 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yku-Yo-arf">
-                                <rect key="frame" x="126" y="1671.6666666666667" width="141" height="27.333333333333258"/>
+                                <rect key="frame" x="126" y="790.66666666666663" width="141" height="27.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="계정이 있으신가요? 로그인">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="11"/>
                                 </buttonConfiguration>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hqq-cl-r9U">
-                                <rect key="frame" x="10" y="1647.6666666666667" width="373" height="1"/>
+                                <rect key="frame" x="10" y="766.66666666666663" width="373" height="1"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="C0z-rN-f5N"/>
@@ -316,10 +316,10 @@
             </objects>
             <point key="canvasLocation" x="294" y="-35"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="W43-cn-2DQ">
             <objects>
-                <viewController id="zbe-F3-e3k" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="zbe-F3-e3k" customClass="HomeViewController" customModule="Catstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="zE4-nS-nfq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -376,6 +376,10 @@
                                     <constraint firstAttribute="bottom" secondItem="HWG-HA-RQB" secondAttribute="bottom" constant="5" id="yL1-Dm-wMh"/>
                                 </constraints>
                             </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ks8-Wh-28g">
+                                <rect key="frame" x="0.0" y="112" width="393" height="740"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DT8-w1-Lv6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -384,14 +388,21 @@
                             <constraint firstItem="9NU-Gl-HJu" firstAttribute="centerY" secondItem="zE4-nS-nfq" secondAttribute="centerY" constant="-342" id="7h1-gR-9cd"/>
                             <constraint firstItem="DT8-w1-Lv6" firstAttribute="trailing" secondItem="lLl-BI-LeW" secondAttribute="trailing" id="PER-Hs-KT7"/>
                             <constraint firstItem="lLl-BI-LeW" firstAttribute="top" secondItem="DT8-w1-Lv6" secondAttribute="top" id="TLC-Mh-vqL"/>
+                            <constraint firstItem="ks8-Wh-28g" firstAttribute="leading" secondItem="zE4-nS-nfq" secondAttribute="leadingMargin" id="TtP-Fy-cxe"/>
+                            <constraint firstItem="ks8-Wh-28g" firstAttribute="top" secondItem="lLl-BI-LeW" secondAttribute="bottom" id="XDB-dU-QVM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ks8-Wh-28g" secondAttribute="trailing" id="csd-SS-dj7"/>
                             <constraint firstAttribute="trailing" secondItem="9NU-Gl-HJu" secondAttribute="trailing" constant="15" id="hR3-8w-CMG"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="ks8-Wh-28g" secondAttribute="bottom" id="oad-F8-Eb7"/>
                             <constraint firstItem="lLl-BI-LeW" firstAttribute="leading" secondItem="DT8-w1-Lv6" secondAttribute="leading" id="xjc-au-TF3"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="ks8-Wh-28g" id="X56-kY-Hoj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Tj-EL-b4C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="466" y="636"/>
+            <point key="canvasLocation" x="464.8854961832061" y="635.91549295774655"/>
         </scene>
     </scenes>
     <resources>
