@@ -10,6 +10,12 @@
 		2C45670E2BE495C500F63F7D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C45670D2BE495C500F63F7D /* HomeViewController.swift */; };
 		2C4567122BE49BDD00F63F7D /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4567102BE49BDD00F63F7D /* FeedTableViewCell.swift */; };
 		2C4567132BE49BDD00F63F7D /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4567112BE49BDD00F63F7D /* FeedTableViewCell.xib */; };
+		2C4567162BE4AAFE00F63F7D /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4567142BE4AAFE00F63F7D /* StoryTableViewCell.swift */; };
+		2C4567172BE4AAFE00F63F7D /* StoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4567152BE4AAFE00F63F7D /* StoryTableViewCell.xib */; };
+		2C45671A2BE4B0A300F63F7D /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4567182BE4B0A300F63F7D /* StoryCollectionViewCell.swift */; };
+		2C45671B2BE4B0A300F63F7D /* StoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4567192BE4B0A300F63F7D /* StoryCollectionViewCell.xib */; };
+		2C45671D2BE4B86100F63F7D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C45671C2BE4B86100F63F7D /* UIView+Extension.swift */; };
+		2C45671F2BE4B98E00F63F7D /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C45671E2BE4B98E00F63F7D /* UIViewController+Extension.swift */; };
 		2C6E72202BE3913B001B93CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E721F2BE3913B001B93CD /* AppDelegate.swift */; };
 		2C6E72222BE3913B001B93CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E72212BE3913B001B93CD /* SceneDelegate.swift */; };
 		2C6E72272BE3913B001B93CD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2C6E72262BE3913B001B93CD /* Base */; };
@@ -23,6 +29,12 @@
 		2C45670D2BE495C500F63F7D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2C4567102BE49BDD00F63F7D /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		2C4567112BE49BDD00F63F7D /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
+		2C4567142BE4AAFE00F63F7D /* StoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
+		2C4567152BE4AAFE00F63F7D /* StoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryTableViewCell.xib; sourceTree = "<group>"; };
+		2C4567182BE4B0A300F63F7D /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		2C4567192BE4B0A300F63F7D /* StoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		2C45671C2BE4B86100F63F7D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		2C45671E2BE4B98E00F63F7D /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		2C6E721C2BE3913B001B93CD /* Catstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6E721F2BE3913B001B93CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C6E72212BE3913B001B93CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +71,10 @@
 			children = (
 				2C4567102BE49BDD00F63F7D /* FeedTableViewCell.swift */,
 				2C4567112BE49BDD00F63F7D /* FeedTableViewCell.xib */,
+				2C4567142BE4AAFE00F63F7D /* StoryTableViewCell.swift */,
+				2C4567152BE4AAFE00F63F7D /* StoryTableViewCell.xib */,
+				2C4567182BE4B0A300F63F7D /* StoryCollectionViewCell.swift */,
+				2C4567192BE4B0A300F63F7D /* StoryCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -91,6 +107,8 @@
 				2C6E72282BE3913C001B93CD /* Assets.xcassets */,
 				2C6E722A2BE3913C001B93CD /* LaunchScreen.storyboard */,
 				2C6E722D2BE3913C001B93CD /* Info.plist */,
+				2C45671C2BE4B86100F63F7D /* UIView+Extension.swift */,
+				2C45671E2BE4B98E00F63F7D /* UIViewController+Extension.swift */,
 			);
 			path = Catstagram;
 			sourceTree = "<group>";
@@ -156,6 +174,8 @@
 				2C6E72292BE3913C001B93CD /* Assets.xcassets in Resources */,
 				2C4567132BE49BDD00F63F7D /* FeedTableViewCell.xib in Resources */,
 				2C6E722C2BE3913C001B93CD /* Base in Resources */,
+				2C4567172BE4AAFE00F63F7D /* StoryTableViewCell.xib in Resources */,
+				2C45671B2BE4B0A300F63F7D /* StoryCollectionViewCell.xib in Resources */,
 				2C6E72272BE3913B001B93CD /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,12 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C45671A2BE4B0A300F63F7D /* StoryCollectionViewCell.swift in Sources */,
 				2C45670E2BE495C500F63F7D /* HomeViewController.swift in Sources */,
 				2C4567122BE49BDD00F63F7D /* FeedTableViewCell.swift in Sources */,
+				2C45671D2BE4B86100F63F7D /* UIView+Extension.swift in Sources */,
 				2C6E72342BE3BD89001B93CD /* LoginViewController.swift in Sources */,
 				2C6E72202BE3913B001B93CD /* AppDelegate.swift in Sources */,
 				2C6E72222BE3913B001B93CD /* SceneDelegate.swift in Sources */,
 				2C6E72362BE3C412001B93CD /* RegisterViewController.swift in Sources */,
+				2C45671F2BE4B98E00F63F7D /* UIViewController+Extension.swift in Sources */,
+				2C4567162BE4AAFE00F63F7D /* StoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

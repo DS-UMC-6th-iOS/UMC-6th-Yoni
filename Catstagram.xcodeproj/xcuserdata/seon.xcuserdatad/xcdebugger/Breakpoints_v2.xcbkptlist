@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "885E9D16-F5C7-4848-9204-5E21F64A7609"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09D61EBC-2E59-4DCA-AC93-AA2DFCA8CE2B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Catstagram/RegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "RegisterViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "09D61EBC-2E59-4DCA-AC93-AA2DFCA8CE2B - 2786e44f67fb758e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Catstagram.RegisterViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Catstagram.RegisterViewController"
+                  moduleName = "Catstagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seon/Desktop/Catstagram/Catstagram/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41">
+               </Location>
+               <Location
+                  uuid = "09D61EBC-2E59-4DCA-AC93-AA2DFCA8CE2B - adbfd61d5d215e48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Catstagram.RegisterViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Catstagram.RegisterViewController&gt;"
+                  moduleName = "Catstagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seon/Desktop/Catstagram/Catstagram/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
