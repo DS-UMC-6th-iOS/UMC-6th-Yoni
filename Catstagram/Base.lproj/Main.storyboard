@@ -316,10 +316,90 @@
             </objects>
             <point key="canvasLocation" x="294" y="-35"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="W43-cn-2DQ">
+            <objects>
+                <viewController id="zbe-F3-e3k" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="zE4-nS-nfq">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lLl-BI-LeW">
+                                <rect key="frame" x="0.0" y="59" width="393" height="45"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_catstagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="HWG-HA-RQB">
+                                        <rect key="frame" x="5" y="5" width="140" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="lIT-0b-7IJ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NU-Gl-HJu">
+                                        <rect key="frame" x="353" y="10" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="25" id="DBH-2z-n99"/>
+                                            <constraint firstAttribute="height" constant="25" id="nmV-OF-jzA"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button" image="ic_home_send"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cQ-Gc-7WI">
+                                        <rect key="frame" x="313" y="10" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="KUe-UN-vg1"/>
+                                            <constraint firstAttribute="width" constant="25" id="y8n-tj-Gio"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button" image="ic_home_heart"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSR-fD-KZO">
+                                        <rect key="frame" x="273" y="10" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="2rS-o6-7gJ"/>
+                                            <constraint firstAttribute="width" constant="25" id="Sba-Os-3mx"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button" image="ic_home_upload"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="9NU-Gl-HJu" firstAttribute="leading" secondItem="7cQ-Gc-7WI" secondAttribute="trailing" constant="15" id="Apw-In-6G5"/>
+                                    <constraint firstItem="9NU-Gl-HJu" firstAttribute="centerY" secondItem="lLl-BI-LeW" secondAttribute="centerY" id="DJr-T9-yvi"/>
+                                    <constraint firstItem="9NU-Gl-HJu" firstAttribute="top" secondItem="lLl-BI-LeW" secondAttribute="top" constant="10" id="FBh-ye-Kin"/>
+                                    <constraint firstItem="HWG-HA-RQB" firstAttribute="top" secondItem="lLl-BI-LeW" secondAttribute="top" constant="5" id="J0W-Go-JW4"/>
+                                    <constraint firstItem="HWG-HA-RQB" firstAttribute="leading" secondItem="lLl-BI-LeW" secondAttribute="leading" constant="5" id="R8j-cf-SZQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="9NU-Gl-HJu" secondAttribute="trailing" constant="15" id="THM-sF-Els"/>
+                                    <constraint firstItem="7cQ-Gc-7WI" firstAttribute="leading" secondItem="KSR-fD-KZO" secondAttribute="trailing" constant="15" id="YaM-Hs-lcf"/>
+                                    <constraint firstItem="HWG-HA-RQB" firstAttribute="centerY" secondItem="lLl-BI-LeW" secondAttribute="centerY" id="cId-Y2-0eo"/>
+                                    <constraint firstItem="7cQ-Gc-7WI" firstAttribute="centerY" secondItem="lLl-BI-LeW" secondAttribute="centerY" id="n7l-dK-R0G"/>
+                                    <constraint firstItem="KSR-fD-KZO" firstAttribute="centerY" secondItem="lLl-BI-LeW" secondAttribute="centerY" id="nG4-5D-YiI"/>
+                                    <constraint firstAttribute="bottom" secondItem="HWG-HA-RQB" secondAttribute="bottom" constant="5" id="yL1-Dm-wMh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DT8-w1-Lv6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9NU-Gl-HJu" firstAttribute="top" secondItem="zE4-nS-nfq" secondAttribute="top" constant="69" id="6sF-QG-qfb"/>
+                            <constraint firstItem="9NU-Gl-HJu" firstAttribute="centerY" secondItem="zE4-nS-nfq" secondAttribute="centerY" constant="-342" id="7h1-gR-9cd"/>
+                            <constraint firstItem="DT8-w1-Lv6" firstAttribute="trailing" secondItem="lLl-BI-LeW" secondAttribute="trailing" id="PER-Hs-KT7"/>
+                            <constraint firstItem="lLl-BI-LeW" firstAttribute="top" secondItem="DT8-w1-Lv6" secondAttribute="top" id="TLC-Mh-vqL"/>
+                            <constraint firstAttribute="trailing" secondItem="9NU-Gl-HJu" secondAttribute="trailing" constant="15" id="hR3-8w-CMG"/>
+                            <constraint firstItem="lLl-BI-LeW" firstAttribute="leading" secondItem="DT8-w1-Lv6" secondAttribute="leading" id="xjc-au-TF3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Tj-EL-b4C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="466" y="636"/>
+        </scene>
     </scenes>
     <resources>
         <image name="f.square.fill" catalog="system" width="128" height="114"/>
         <image name="ic_catstagram_logo" width="476" height="96"/>
+        <image name="ic_home_heart" width="512" height="512"/>
+        <image name="ic_home_send" width="512" height="512"/>
+        <image name="ic_home_upload" width="512" height="512"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
