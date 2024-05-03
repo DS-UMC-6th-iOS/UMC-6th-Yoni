@@ -18,8 +18,8 @@ class FeedTableViewCell: UITableViewCell {
     @IBOutlet weak var labelFeed: UILabel!
     @IBOutlet weak var imageViewMyProfile: UIImageView!
     
-    // 좋아요 버튼
-    @IBAction func actionIsHeart(_ sender: Any) {
+    
+    @IBAction func buttonIsHeart(_ sender: UIButton) {
         if buttonIsHeart.isSelected {
             buttonIsHeart.isSelected = false
         }
@@ -28,8 +28,7 @@ class FeedTableViewCell: UITableViewCell {
         }
     }
     
-    // 북마크 버튼
-    @IBAction func actionIsBookMark(_ sender: Any) {
+    @IBAction func buttonIsBookMark(_ sender: UIButton) {
         if buttonIsBookMark.isSelected {
             buttonIsBookMark.isSelected = false
         }
@@ -53,7 +52,6 @@ class FeedTableViewCell: UITableViewCell {
         let atrributedStr = NSMutableAttributedString(string: labelFeed.text ?? "")
         atrributedStr.addAttribute(.font, value: fontSize, range: NSRange.init())
         labelFeed.attributedText = atrributedStr
-        
         
     }
 

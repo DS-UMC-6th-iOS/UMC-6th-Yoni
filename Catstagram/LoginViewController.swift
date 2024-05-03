@@ -52,7 +52,11 @@ class LoginViewController: UIViewController {
         if userInfo.email == self.email && userInfo.password == self.password {
             // self.loginButton.backgroundColor = .facebook
             // self.loginButton.isEnabled = true
-            print("다음 화면으로 이동")
+            
+            // 다음 화면으로 이동
+            let vc = storyboard?.instantiateViewController(withIdentifier: "TabBarVC") as! UITabBarController
+            vc.modalPresentationStyle = .fullScreen
+            self.present(vc, animated: true, completion: nil)
         }
         else {
 //            self.loginButton.backgroundColor = .disabledButton
