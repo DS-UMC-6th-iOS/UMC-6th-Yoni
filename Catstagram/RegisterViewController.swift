@@ -59,6 +59,10 @@ class RegisterViewController: UIViewController {
         
         setupTextField()
         setupAttribute()
+        
+        // bug fix
+        self.navigationController?
+            .interactivePopGestureRecognizer?.delegate = nil
     }
     
     // MARK: - Actions
@@ -79,6 +83,11 @@ class RegisterViewController: UIViewController {
         default:
             fatalError("Misiing TextFiled...")
         }
+    }
+    
+    @IBAction func backButtonDidTap(_ sender: UIBarButtonItem) {
+        // 뒤로가기 로직
+        self.navigationController?.popViewController(animated: true)
     }
     
     
