@@ -23,6 +23,7 @@
 		2C6E722C2BE3913C001B93CD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2C6E722B2BE3913C001B93CD /* Base */; };
 		2C6E72342BE3BD89001B93CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E72332BE3BD89001B93CD /* LoginViewController.swift */; };
 		2C6E72362BE3C412001B93CD /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E72352BE3C412001B93CD /* RegisterViewController.swift */; };
+		2C93DDDF2BE4C66A00BAAE0D /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93DDDE2BE4C66A00BAAE0D /* UserInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		2C6E722D2BE3913C001B93CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C6E72332BE3BD89001B93CD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2C6E72352BE3C412001B93CD /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2C93DDDE2BE4C66A00BAAE0D /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				2C6E722D2BE3913C001B93CD /* Info.plist */,
 				2C45671C2BE4B86100F63F7D /* UIView+Extension.swift */,
 				2C45671E2BE4B98E00F63F7D /* UIViewController+Extension.swift */,
+				2C93DDDE2BE4C66A00BAAE0D /* UserInfo.swift */,
 			);
 			path = Catstagram;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				2C6E72222BE3913B001B93CD /* SceneDelegate.swift in Sources */,
 				2C6E72362BE3C412001B93CD /* RegisterViewController.swift in Sources */,
 				2C45671F2BE4B98E00F63F7D /* UIViewController+Extension.swift in Sources */,
+				2C93DDDF2BE4C66A00BAAE0D /* UserInfo.swift in Sources */,
 				2C4567162BE4AAFE00F63F7D /* StoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
