@@ -44,9 +44,7 @@ class ProfileCollectionViewCell: UICollectionViewCell {
         addFriendButton.layer.borderColor = UIColor.lightGray.cgColor
         addFriendButton.layer.borderWidth = 1
         
-        [
-            postingCountLabel, followerCountLabel, followingCountLabel
-        ].forEach{$0.text = "\(Int.random(in: 0...10))"}
+        [postingCountLabel, followerCountLabel, followingCountLabel].forEach{$0.text = "\(Int.random(in: 0...10))"}
     }
 
 }

@@ -8,7 +8,6 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
     var email = String()
     var password = String()
     var userInfo: UserInfo?
