@@ -29,6 +29,13 @@
 		2CF0A7972C2DC9FD0053C29F /* ProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CF0A7952C2DC9FD0053C29F /* ProfileCollectionViewCell.xib */; };
 		2CF0A79C2C2DD7B50053C29F /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0A79A2C2DD7B50053C29F /* PostCollectionViewCell.swift */; };
 		2CF0A79D2C2DD7B50053C29F /* PostCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CF0A79B2C2DD7B50053C29F /* PostCollectionViewCell.xib */; };
+		2CF0A7A02C2E899D0053C29F /* FeedAPIInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0A79F2C2E899D0053C29F /* FeedAPIInput.swift */; };
+		2CF0A7A22C2E89D30053C29F /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0A7A12C2E89D30053C29F /* FeedModel.swift */; };
+		2CF0A7A42C2E8A0C0053C29F /* FeedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0A7A32C2E8A0C0053C29F /* FeedDataManager.swift */; };
+		2CF0A7A72C3706C50053C29F /* FeedUploadInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0A7A62C3706C50053C29F /* FeedUploadInput.swift */; };
+		2CF0A7A92C3707120053C29F /* FeedUploadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0A7A82C3707120053C29F /* FeedUploadModel.swift */; };
+		2CF0A7AB2C3707960053C29F /* FeedUploadDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0A7AA2C3707960053C29F /* FeedUploadDataManager.swift */; };
+		4D3ED1AB329A5ACE057E58B8 /* Pods_Catstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D5A15E5710BADA826F3C19 /* Pods_Catstagram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +63,15 @@
 		2CF0A7952C2DC9FD0053C29F /* ProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCollectionViewCell.xib; sourceTree = "<group>"; };
 		2CF0A79A2C2DD7B50053C29F /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
 		2CF0A79B2C2DD7B50053C29F /* PostCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCollectionViewCell.xib; sourceTree = "<group>"; };
+		2CF0A79F2C2E899D0053C29F /* FeedAPIInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAPIInput.swift; sourceTree = "<group>"; };
+		2CF0A7A12C2E89D30053C29F /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		2CF0A7A32C2E8A0C0053C29F /* FeedDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDataManager.swift; sourceTree = "<group>"; };
+		2CF0A7A62C3706C50053C29F /* FeedUploadInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUploadInput.swift; sourceTree = "<group>"; };
+		2CF0A7A82C3707120053C29F /* FeedUploadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUploadModel.swift; sourceTree = "<group>"; };
+		2CF0A7AA2C3707960053C29F /* FeedUploadDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUploadDataManager.swift; sourceTree = "<group>"; };
+		57D5A15E5710BADA826F3C19 /* Pods_Catstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC8F58FBB2B5D604DF3261A /* Pods-Catstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catstagram.debug.xcconfig"; path = "Target Support Files/Pods-Catstagram/Pods-Catstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		E5BD39826E5EEFBF5228D1F1 /* Pods-Catstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catstagram.release.xcconfig"; path = "Target Support Files/Pods-Catstagram/Pods-Catstagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3ED1AB329A5ACE057E58B8 /* Pods_Catstagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +89,8 @@
 		2C45670A2BE4956E00F63F7D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				2CF0A7A52C37067E0053C29F /* FeedUploadDataManager */,
+				2CF0A79E2C2E896B0053C29F /* FeedDataManager */,
 				2C45670F2BE49B9700F63F7D /* Cell */,
 				2C45670D2BE495C500F63F7D /* HomeViewController.swift */,
 			);
@@ -96,6 +115,8 @@
 			children = (
 				2C6E721E2BE3913B001B93CD /* Catstagram */,
 				2C6E721D2BE3913B001B93CD /* Products */,
+				ABAD3172EA2934751C65259A /* Pods */,
+				C14339E230882EF70399611C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,6 +184,43 @@
 			path = PostCell;
 			sourceTree = "<group>";
 		};
+		2CF0A79E2C2E896B0053C29F /* FeedDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2CF0A79F2C2E899D0053C29F /* FeedAPIInput.swift */,
+				2CF0A7A12C2E89D30053C29F /* FeedModel.swift */,
+				2CF0A7A32C2E8A0C0053C29F /* FeedDataManager.swift */,
+			);
+			path = FeedDataManager;
+			sourceTree = "<group>";
+		};
+		2CF0A7A52C37067E0053C29F /* FeedUploadDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2CF0A7A62C3706C50053C29F /* FeedUploadInput.swift */,
+				2CF0A7A82C3707120053C29F /* FeedUploadModel.swift */,
+				2CF0A7AA2C3707960053C29F /* FeedUploadDataManager.swift */,
+			);
+			path = FeedUploadDataManager;
+			sourceTree = "<group>";
+		};
+		ABAD3172EA2934751C65259A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EC8F58FBB2B5D604DF3261A /* Pods-Catstagram.debug.xcconfig */,
+				E5BD39826E5EEFBF5228D1F1 /* Pods-Catstagram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C14339E230882EF70399611C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57D5A15E5710BADA826F3C19 /* Pods_Catstagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C6E72302BE3913C001B93CD /* Build configuration list for PBXNativeTarget "Catstagram" */;
 			buildPhases = (
+				E2640A919DE3961F341ABDB9 /* [CP] Check Pods Manifest.lock */,
 				2C6E72182BE3913B001B93CD /* Sources */,
 				2C6E72192BE3913B001B93CD /* Frameworks */,
 				2C6E721A2BE3913B001B93CD /* Resources */,
+				346CAA678C1F359A517E1C64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +294,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		346CAA678C1F359A517E1C64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catstagram/Pods-Catstagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catstagram/Pods-Catstagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Catstagram/Pods-Catstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2640A919DE3961F341ABDB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Catstagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C6E72182BE3913B001B93CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -241,18 +343,24 @@
 			files = (
 				2C45670E2BE495C500F63F7D /* HomeViewController.swift in Sources */,
 				2C4567122BE49BDD00F63F7D /* FeedTableViewCell.swift in Sources */,
+				2CF0A7A02C2E899D0053C29F /* FeedAPIInput.swift in Sources */,
 				2C31029C2BE5394200FC7DC4 /* StoryCollectionViewCell.swift in Sources */,
 				2C45671D2BE4B86100F63F7D /* UIView+Extension.swift in Sources */,
+				2CF0A7A72C3706C50053C29F /* FeedUploadInput.swift in Sources */,
 				2C6E72342BE3BD89001B93CD /* LoginViewController.swift in Sources */,
 				2C6E72202BE3913B001B93CD /* AppDelegate.swift in Sources */,
 				2CF0A78F2C2DC6930053C29F /* ProfileViewController.swift in Sources */,
 				2C6E72222BE3913B001B93CD /* SceneDelegate.swift in Sources */,
 				2CF0A7962C2DC9FD0053C29F /* ProfileCollectionViewCell.swift in Sources */,
+				2CF0A7A92C3707120053C29F /* FeedUploadModel.swift in Sources */,
+				2CF0A7AB2C3707960053C29F /* FeedUploadDataManager.swift in Sources */,
 				2C6E72362BE3C412001B93CD /* RegisterViewController.swift in Sources */,
+				2CF0A7A42C2E8A0C0053C29F /* FeedDataManager.swift in Sources */,
 				2C45671F2BE4B98E00F63F7D /* UIViewController+Extension.swift in Sources */,
 				2C93DDDF2BE4C66A00BAAE0D /* UserInfo.swift in Sources */,
 				2CF0A79C2C2DD7B50053C29F /* PostCollectionViewCell.swift in Sources */,
 				2C3102982BE5359900FC7DC4 /* StoryTableViewCell.swift in Sources */,
+				2CF0A7A22C2E89D30053C29F /* FeedModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +423,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -378,7 +486,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -399,6 +507,7 @@
 		};
 		2C6E72312BE3913C001B93CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC8F58FBB2B5D604DF3261A /* Pods-Catstagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -426,6 +535,7 @@
 		};
 		2C6E72322BE3913C001B93CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BD39826E5EEFBF5228D1F1 /* Pods-Catstagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
