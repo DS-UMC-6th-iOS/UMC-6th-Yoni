@@ -8,6 +8,7 @@
 import UIKit
 
 class ReelsCollectionViewCell: UICollectionViewCell {
+    static let identifier = "ReelsCollectionViewCell"
 
     override func awakeFromNib() {
         super.awakeFromNib()

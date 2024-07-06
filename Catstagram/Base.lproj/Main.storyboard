@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IBt-ew-aGK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Uyb-xt-7Ft">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -26,7 +26,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CqG-nF-maT">
                                 <rect key="frame" x="10" y="409" width="373" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 <connections>
                                     <action selector="passwordTextFieldEditingChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="NlB-jt-xkA"/>
                                 </connections>
@@ -398,7 +398,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="chv-DG-8cF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2257.2519083969464" y="1374.6478873239437"/>
+            <point key="canvasLocation" x="2529" y="1375"/>
         </scene>
         <!--Home-->
         <scene sceneID="uKh-Dv-UmT">
@@ -480,14 +480,14 @@
                             <constraint firstItem="hf8-vP-x7H" firstAttribute="leading" secondItem="Flf-d1-zG0" secondAttribute="leading" id="xT0-8v-Khu"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="m7H-9L-Pok"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="m7H-9L-Pok"/>
                     <connections>
                         <outlet property="tableView" destination="SSQ-Lp-6HG" id="ZYE-vT-AsR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gFe-Lk-MjP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="601" y="1375"/>
+            <point key="canvasLocation" x="294" y="1375"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Zeb-Jf-N1f">
@@ -497,9 +497,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="hch-Ti-6L4" kind="relationship" relationship="viewControllers" id="IVR-BV-yHV"/>
+                        <segue destination="nzy-9O-705" kind="relationship" relationship="viewControllers" id="zLg-L7-CNy"/>
                         <segue destination="6cD-q1-NF3" kind="relationship" relationship="viewControllers" id="lSC-Ce-IM9"/>
                     </connections>
                 </tabBarController>
@@ -507,11 +509,49 @@
             </objects>
             <point key="canvasLocation" x="999" y="636"/>
         </scene>
+        <!--Reels-->
+        <scene sceneID="tYD-Mw-Kt8">
+            <objects>
+                <viewController storyboardIdentifier="ReelsVC" id="nzy-9O-705" customClass="ReelsViewController" customModule="Catstagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KY1-se-0du">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="clB-BR-eam">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="IoP-Uq-U2j">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IwQ-7Z-cuo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IwQ-7Z-cuo" firstAttribute="trailing" secondItem="clB-BR-eam" secondAttribute="trailing" id="HaW-qf-jPa"/>
+                            <constraint firstItem="clB-BR-eam" firstAttribute="leading" secondItem="IwQ-7Z-cuo" secondAttribute="leading" id="XEv-hu-gai"/>
+                            <constraint firstItem="IwQ-7Z-cuo" firstAttribute="bottom" secondItem="clB-BR-eam" secondAttribute="bottom" id="iG7-mu-2cF"/>
+                            <constraint firstItem="clB-BR-eam" firstAttribute="top" secondItem="IwQ-7Z-cuo" secondAttribute="top" id="yCK-kJ-Mna"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Reels" id="IqA-RP-Pzx"/>
+                    <connections>
+                        <outlet property="collectionView" destination="clB-BR-eam" id="vNR-jp-xal"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qOp-gn-Vg6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="999" y="1375"/>
+        </scene>
         <!--Profile-->
         <scene sceneID="AqY-r5-00b">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6cD-q1-NF3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="Oa7-rJ-vK5"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.circle" catalog="system" id="Oa7-rJ-vK5"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="z9l-SQ-CuO">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -524,17 +564,19 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ZY-Af-ckr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1330.534351145038" y="1374.6478873239437"/>
+            <point key="canvasLocation" x="1711" y="1375"/>
         </scene>
     </scenes>
     <resources>
         <image name="arrow.backward" catalog="system" width="128" height="95"/>
         <image name="f.square.fill" catalog="system" width="128" height="114"/>
+        <image name="house" catalog="system" width="128" height="104"/>
         <image name="ic_catstagram_logo" width="476" height="96"/>
         <image name="ic_home_heart" width="512" height="512"/>
         <image name="ic_home_send" width="512" height="512"/>
         <image name="ic_home_upload" width="512" height="512"/>
         <image name="line.3.horizontal" catalog="system" width="128" height="65"/>
+        <image name="person.circle" catalog="system" width="128" height="123"/>
         <image name="plus.app" catalog="system" width="128" height="114"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

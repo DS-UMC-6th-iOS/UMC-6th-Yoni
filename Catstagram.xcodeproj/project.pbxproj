@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0B6DAB2C39B5F8008D0F88 /* dummyVideo01.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CF0A7BA2C399E650053C29F /* dummyVideo01.mp4 */; };
+		2C0B6DAC2C39B5FB008D0F88 /* dummyVideo02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CF0A7BB2C399E650053C29F /* dummyVideo02.mp4 */; };
 		2C3102982BE5359900FC7DC4 /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3102962BE5359900FC7DC4 /* StoryTableViewCell.swift */; };
 		2C3102992BE5359900FC7DC4 /* StoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C3102972BE5359900FC7DC4 /* StoryTableViewCell.xib */; };
 		2C31029C2BE5394200FC7DC4 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C31029A2BE5394200FC7DC4 /* StoryCollectionViewCell.swift */; };
@@ -35,6 +37,11 @@
 		2CF0A7A72C3706C50053C29F /* FeedUploadInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0A7A62C3706C50053C29F /* FeedUploadInput.swift */; };
 		2CF0A7A92C3707120053C29F /* FeedUploadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0A7A82C3707120053C29F /* FeedUploadModel.swift */; };
 		2CF0A7AB2C3707960053C29F /* FeedUploadDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0A7AA2C3707960053C29F /* FeedUploadDataManager.swift */; };
+		2CF0A7B12C37103E0053C29F /* UserFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0A7B02C37103E0053C29F /* UserFeedModel.swift */; };
+		2CF0A7B32C3713310053C29F /* UserFeedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0A7B22C3713310053C29F /* UserFeedDataManager.swift */; };
+		2CF0A7B52C3720660053C29F /* ReelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0A7B42C3720660053C29F /* ReelsViewController.swift */; };
+		2CF0A7BD2C39A00E0053C29F /* ReelsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0A7BC2C39A00E0053C29F /* ReelsCell.swift */; };
+		2CF0A7BF2C39A1FD0053C29F /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0A7BE2C39A1FD0053C29F /* VideoPlayerView.swift */; };
 		4D3ED1AB329A5ACE057E58B8 /* Pods_Catstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D5A15E5710BADA826F3C19 /* Pods_Catstagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +76,13 @@
 		2CF0A7A62C3706C50053C29F /* FeedUploadInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUploadInput.swift; sourceTree = "<group>"; };
 		2CF0A7A82C3707120053C29F /* FeedUploadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUploadModel.swift; sourceTree = "<group>"; };
 		2CF0A7AA2C3707960053C29F /* FeedUploadDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUploadDataManager.swift; sourceTree = "<group>"; };
+		2CF0A7B02C37103E0053C29F /* UserFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedModel.swift; sourceTree = "<group>"; };
+		2CF0A7B22C3713310053C29F /* UserFeedDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedDataManager.swift; sourceTree = "<group>"; };
+		2CF0A7B42C3720660053C29F /* ReelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsViewController.swift; sourceTree = "<group>"; };
+		2CF0A7BA2C399E650053C29F /* dummyVideo01.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = dummyVideo01.mp4; path = ../../../Downloads/dummyVideo01.mp4; sourceTree = "<group>"; };
+		2CF0A7BB2C399E650053C29F /* dummyVideo02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = dummyVideo02.mp4; path = ../../../Downloads/dummyVideo02.mp4; sourceTree = "<group>"; };
+		2CF0A7BC2C39A00E0053C29F /* ReelsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsCell.swift; sourceTree = "<group>"; };
+		2CF0A7BE2C39A1FD0053C29F /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		57D5A15E5710BADA826F3C19 /* Pods_Catstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC8F58FBB2B5D604DF3261A /* Pods-Catstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catstagram.debug.xcconfig"; path = "Target Support Files/Pods-Catstagram/Pods-Catstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		E5BD39826E5EEFBF5228D1F1 /* Pods-Catstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catstagram.release.xcconfig"; path = "Target Support Files/Pods-Catstagram/Pods-Catstagram.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,15 +145,16 @@
 		2C6E721E2BE3913B001B93CD /* Catstagram */ = {
 			isa = PBXGroup;
 			children = (
-				2C45670A2BE4956E00F63F7D /* Home */,
-				2C6E721F2BE3913B001B93CD /* AppDelegate.swift */,
-				2C6E72212BE3913B001B93CD /* SceneDelegate.swift */,
-				2CF0A7902C2DC6A80053C29F /* Profile */,
+				2CF0A7AC2C370DA10053C29F /* App */,
+				2CF0A7AE2C370DF60053C29F /* UserInterface */,
 				2C6E72252BE3913B001B93CD /* Main.storyboard */,
-				2C6E72332BE3BD89001B93CD /* LoginViewController.swift */,
-				2C6E72352BE3C412001B93CD /* RegisterViewController.swift */,
-				2C6E72282BE3913C001B93CD /* Assets.xcassets */,
+				2CF0A7B42C3720660053C29F /* ReelsViewController.swift */,
+				2CF0A7BC2C39A00E0053C29F /* ReelsCell.swift */,
+				2CF0A7BE2C39A1FD0053C29F /* VideoPlayerView.swift */,
 				2C6E722A2BE3913C001B93CD /* LaunchScreen.storyboard */,
+				2CF0A7BA2C399E650053C29F /* dummyVideo01.mp4 */,
+				2CF0A7BB2C399E650053C29F /* dummyVideo02.mp4 */,
+				2C6E72282BE3913C001B93CD /* Assets.xcassets */,
 				2C6E722D2BE3913C001B93CD /* Info.plist */,
 				2C45671C2BE4B86100F63F7D /* UIView+Extension.swift */,
 				2C45671E2BE4B98E00F63F7D /* UIViewController+Extension.swift */,
@@ -151,19 +166,12 @@
 		2CF0A7902C2DC6A80053C29F /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				2CF0A7912C2DC9B50053C29F /* Cell */,
+				2CF0A7AF2C370FED0053C29F /* UserFeedDataManager */,
+				2CF0A7992C2DD7A10053C29F /* PostCell */,
+				2CF0A7982C2DD7830053C29F /* ProfileCell */,
 				2CF0A78E2C2DC6930053C29F /* ProfileViewController.swift */,
 			);
 			path = Profile;
-			sourceTree = "<group>";
-		};
-		2CF0A7912C2DC9B50053C29F /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				2CF0A7992C2DD7A10053C29F /* PostCell */,
-				2CF0A7982C2DD7830053C29F /* ProfileCell */,
-			);
-			path = Cell;
 			sourceTree = "<group>";
 		};
 		2CF0A7982C2DD7830053C29F /* ProfileCell */ = {
@@ -202,6 +210,43 @@
 				2CF0A7AA2C3707960053C29F /* FeedUploadDataManager.swift */,
 			);
 			path = FeedUploadDataManager;
+			sourceTree = "<group>";
+		};
+		2CF0A7AC2C370DA10053C29F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2C6E721F2BE3913B001B93CD /* AppDelegate.swift */,
+				2C6E72212BE3913B001B93CD /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2CF0A7AD2C370DAE0053C29F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				2C6E72332BE3BD89001B93CD /* LoginViewController.swift */,
+				2C6E72352BE3C412001B93CD /* RegisterViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		2CF0A7AE2C370DF60053C29F /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				2C45670A2BE4956E00F63F7D /* Home */,
+				2CF0A7902C2DC6A80053C29F /* Profile */,
+				2CF0A7AD2C370DAE0053C29F /* Authentication */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		2CF0A7AF2C370FED0053C29F /* UserFeedDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2CF0A7B02C37103E0053C29F /* UserFeedModel.swift */,
+				2CF0A7B22C3713310053C29F /* UserFeedDataManager.swift */,
+			);
+			path = UserFeedDataManager;
 			sourceTree = "<group>";
 		};
 		ABAD3172EA2934751C65259A /* Pods */ = {
@@ -283,9 +328,11 @@
 			files = (
 				2CF0A79D2C2DD7B50053C29F /* PostCollectionViewCell.xib in Resources */,
 				2C6E72292BE3913C001B93CD /* Assets.xcassets in Resources */,
+				2C0B6DAC2C39B5FB008D0F88 /* dummyVideo02.mp4 in Resources */,
 				2C4567132BE49BDD00F63F7D /* FeedTableViewCell.xib in Resources */,
 				2C6E722C2BE3913C001B93CD /* Base in Resources */,
 				2CF0A7972C2DC9FD0053C29F /* ProfileCollectionViewCell.xib in Resources */,
+				2C0B6DAB2C39B5F8008D0F88 /* dummyVideo01.mp4 in Resources */,
 				2C3102992BE5359900FC7DC4 /* StoryTableViewCell.xib in Resources */,
 				2C31029D2BE5394200FC7DC4 /* StoryCollectionViewCell.xib in Resources */,
 				2C6E72272BE3913B001B93CD /* Base in Resources */,
@@ -341,6 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF0A7BD2C39A00E0053C29F /* ReelsCell.swift in Sources */,
 				2C45670E2BE495C500F63F7D /* HomeViewController.swift in Sources */,
 				2C4567122BE49BDD00F63F7D /* FeedTableViewCell.swift in Sources */,
 				2CF0A7A02C2E899D0053C29F /* FeedAPIInput.swift in Sources */,
@@ -349,16 +397,20 @@
 				2CF0A7A72C3706C50053C29F /* FeedUploadInput.swift in Sources */,
 				2C6E72342BE3BD89001B93CD /* LoginViewController.swift in Sources */,
 				2C6E72202BE3913B001B93CD /* AppDelegate.swift in Sources */,
+				2CF0A7B32C3713310053C29F /* UserFeedDataManager.swift in Sources */,
 				2CF0A78F2C2DC6930053C29F /* ProfileViewController.swift in Sources */,
+				2CF0A7BF2C39A1FD0053C29F /* VideoPlayerView.swift in Sources */,
 				2C6E72222BE3913B001B93CD /* SceneDelegate.swift in Sources */,
 				2CF0A7962C2DC9FD0053C29F /* ProfileCollectionViewCell.swift in Sources */,
 				2CF0A7A92C3707120053C29F /* FeedUploadModel.swift in Sources */,
 				2CF0A7AB2C3707960053C29F /* FeedUploadDataManager.swift in Sources */,
 				2C6E72362BE3C412001B93CD /* RegisterViewController.swift in Sources */,
 				2CF0A7A42C2E8A0C0053C29F /* FeedDataManager.swift in Sources */,
+				2CF0A7B52C3720660053C29F /* ReelsViewController.swift in Sources */,
 				2C45671F2BE4B98E00F63F7D /* UIViewController+Extension.swift in Sources */,
 				2C93DDDF2BE4C66A00BAAE0D /* UserInfo.swift in Sources */,
 				2CF0A79C2C2DD7B50053C29F /* PostCollectionViewCell.swift in Sources */,
+				2CF0A7B12C37103E0053C29F /* UserFeedModel.swift in Sources */,
 				2C3102982BE5359900FC7DC4 /* StoryTableViewCell.swift in Sources */,
 				2CF0A7A22C2E89D30053C29F /* FeedModel.swift in Sources */,
 			);

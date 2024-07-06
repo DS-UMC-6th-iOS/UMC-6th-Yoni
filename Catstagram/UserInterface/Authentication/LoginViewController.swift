@@ -45,8 +45,7 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func loginButtonDidTap(_ sender: UIButton) {
-        // 회원가입 정보를 전달받아
-        // textField 데이터가 일치하면 로그인
+        // 회원가입 정보를 전달받아 textField 데이터가 일치하면 로그인
         guard let userInfo = self.userInfo else { return }
         
         if userInfo.email == self.email && userInfo.password == self.password {
@@ -55,8 +54,9 @@ class LoginViewController: UIViewController {
             
             // 다음 화면으로 이동
             let vc = storyboard?.instantiateViewController(withIdentifier: "TabBarVC") as! UITabBarController
-            vc.modalPresentationStyle = .fullScreen
-            self.present(vc, animated: true, completion: nil)
+            // vc.modalPresentationStyle = .fullScreen
+            // self.present(vc, animated: true, completion: nil)
+            self.view.window?.windowScene?.keyWindow?.rootViewController = vc
         }
         else {
 //            self.loginButton.backgroundColor = .disabledButton
