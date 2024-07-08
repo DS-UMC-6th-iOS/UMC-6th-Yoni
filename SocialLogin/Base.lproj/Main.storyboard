@@ -76,10 +76,56 @@
                             <constraint firstItem="lyk-Tl-FaO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="u1A-yd-Mhq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="f0P-bI-BVE" id="SIy-rC-jyy"/>
+                        <outlet property="loginWithEmailBtn" destination="hyW-A6-vx8" id="0se-tN-IpK"/>
+                        <outlet property="passwordTextField" destination="SRy-j9-yzS" id="Fig-p1-FG3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="9.9236641221374047" y="-27.464788732394368"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="s5j-zU-Vxc">
+            <objects>
+                <viewController storyboardIdentifier="MainVC" id="DVy-KO-e7x" customClass="MainViewController" customModule="SocialLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3fm-cW-dMm">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="51" translatesAutoresizingMaskIntoConstraints="NO" id="eDl-Sf-xWB">
+                                <rect key="frame" x="101.66666666666667" y="416" width="189.66666666666663" height="20.333333333333314"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqg-on-hPO">
+                                        <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="님 안녕하세요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSq-N2-taL">
+                                        <rect key="frame" x="92.333333333333343" y="0.0" width="97.333333333333343" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ARO-4B-03S"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eDl-Sf-xWB" firstAttribute="centerX" secondItem="3fm-cW-dMm" secondAttribute="centerX" id="eUD-fj-JYT"/>
+                            <constraint firstItem="eDl-Sf-xWB" firstAttribute="centerY" secondItem="3fm-cW-dMm" secondAttribute="centerY" id="p3X-ud-2KX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nicknameLabel" destination="iqg-on-hPO" id="vVX-L6-Tky"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JNI-ad-4cH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="796" y="-27"/>
         </scene>
     </scenes>
     <resources>
