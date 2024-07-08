@@ -13,6 +13,7 @@
 		2CF214592C3BFE65002EA0CA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2CF214582C3BFE65002EA0CA /* Base */; };
 		2CF2145B2C3BFE66002EA0CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2145A2C3BFE66002EA0CA /* Assets.xcassets */; };
 		2CF2145E2C3BFE66002EA0CA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2145D2C3BFE66002EA0CA /* Base */; };
+		2CF214662C3C0088002EA0CA /* kakao_login_medium_wide.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF214652C3C0088002EA0CA /* kakao_login_medium_wide.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2CF2145A2C3BFE66002EA0CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CF2145D2C3BFE66002EA0CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CF2145F2C3BFE66002EA0CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF214652C3C0088002EA0CA /* kakao_login_medium_wide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kakao_login_medium_wide.png; path = ../../../Downloads/kakao_login_medium_wide.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				2CF214532C3BFE65002EA0CA /* SceneDelegate.swift */,
 				2CF214552C3BFE65002EA0CA /* ViewController.swift */,
 				2CF214572C3BFE65002EA0CA /* Main.storyboard */,
+				2CF214652C3C0088002EA0CA /* kakao_login_medium_wide.png */,
 				2CF2145A2C3BFE66002EA0CA /* Assets.xcassets */,
 				2CF2145C2C3BFE66002EA0CA /* LaunchScreen.storyboard */,
 				2CF2145F2C3BFE66002EA0CA /* Info.plist */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CF2145B2C3BFE66002EA0CA /* Assets.xcassets in Resources */,
+				2CF214662C3C0088002EA0CA /* kakao_login_medium_wide.png in Resources */,
 				2CF2145E2C3BFE66002EA0CA /* Base in Resources */,
 				2CF214592C3BFE65002EA0CA /* Base in Resources */,
 			);
